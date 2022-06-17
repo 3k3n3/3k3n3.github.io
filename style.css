@@ -1,0 +1,214 @@
+/*ALL PAGES*/
+body{
+    background-color: gainsboro;
+    margin: 0;
+    font-size: 17px;
+    color: #16161D;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: lightslategray;
+    overflow: hidden;
+}
+
+.nav{
+    float: right;
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #7da7db;
+  color: white;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px 10px;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    background: #16161d;
+    color: gainsboro;
+    text-align: right;
+    right: 0;
+    font-size: small;
+}
+
+
+/*INDEX PAGE*/
+main .top{
+    text-align: center;
+}
+
+main .top img{
+    padding-top: 40px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+main .mid{
+    text-align: center;
+}
+
+main .others{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+
+}
+main .midtable{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.midtable ul{
+    padding: 0;
+    margin: 0;
+}
+
+main .bottom{
+    text-align: center;
+}
+
+main .bottom a{
+    display: inline-block;
+    padding: 5px 5px 2px 5px;
+    background-color: lightgray;
+    border-radius: 50%;
+}
+main .bottom a:hover{
+    background-color:silver ;
+}
+
+main .index_button {
+    padding: 15px;
+    text-align: center;
+}
+
+main .index_button a input{
+    width: 20%;
+    background-color: silver;
+    padding: 15px;
+    border: solid 1px dimgray;
+}
+
+.index_button a input:hover {
+    background-color:#7da7db;
+    color: white;
+}
+
+/*CONTACT PAGE*/
+.contact{
+    padding-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact #text{
+    padding: 15px;
+    margin: 5px;
+    border: 1px solid dimgrey;
+    background-color:whitesmoke;
+}
+
+.contact input{
+    border: 1px solid dimgray;
+    background-color: silver ;
+    padding: 15px;
+    margin: 5px;
+    width: 64%;
+}
+
+.contact .submit input{
+    width: 73%;
+}
+.contact .submit input:hover{
+    background-color:#7da7db;
+    color: white;
+}
+
+
+/*REGISTRATION PAGE*/
+.register{
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+}
+
+.register input{
+    padding: 15px;
+    margin: 1px;
+    border: 1px solid  dimgray;
+    background-color: whitesmoke;
+}
+
+.register select{
+    padding: 15px;
+    margin: 1px;
+    border: 1px solid  dimgray;
+    background-color: whitesmoke;
+}
+
+.register .submit{
+    width: 60%;
+    background-color: silver;
+}
+
+.register .submit:hover{
+    background-color:#7da7db;
+    color: white;
+}
+
+
+/*LOGIN PAGE*/
+.login{
+    margin-top: 5%;
+    padding: 10px 0px 40px 0px;
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    text-align: center;
+    box-shadow: 0px 4px 8px 0px #7da7db;
+}
+
+.login input{
+    padding: 15px;
+    margin: 10px;
+    width: 60%;
+    border: 1px solid  dimgray;
+    background-color: whitesmoke;
+}
+
+#login{
+    width: 65%;
+    background-color: silver;
+}
+
+#login:hover{
+    background-color:#7da7db;
+    color: white;
+
+}
+
+.login a{
+    color: #878795;
+    text-decoration: none;
+}
+.login a:hover{
+    text-decoration: underline;
+}
